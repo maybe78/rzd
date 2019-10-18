@@ -1,0 +1,34 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//cdn.muicss.com/mui-0.10.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.0/js/mui.min.js"></script>
+  </head>
+<body>
+    <title>МОСКВА - АДЛЕР {{ date }}</title>
+    <div class="mui-container">
+      <div class="mui-panel">
+          <div style="text-align: center;">
+              <img src="../static/rzd.jpeg">
+              <h1>Сочи - Москва {{ date }}</h1>
+              <img src="../static/train.png" alt="rzd">
+          </div>
+          <table class="mui-table">
+              <thead>
+              <tr><th>Люкс</th><th>Купе</th><th>Плацкарт</th><th>Мягкий</th></tr>
+              </thead>
+              <tbody>
+              <tr><td>{{ l }}</td><td>{{ k }}</td><td>{{ p }}</td><td>{{ m }}</td></tr>
+              </tbody>
+        </table>
+          <div style="text-align: center;">
+              <a href="/next">
+                  <button class="mui-btn mui-btn--raised">Билеты на следующий день</button>
+              </a>
+          </div>
+      </div>
+    </div>
+</body>
+
